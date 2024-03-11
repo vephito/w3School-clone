@@ -1,0 +1,92 @@
+body {
+    margin:0;
+    padding:0;
+    font-family: 'Segoe UI','Arial','sans-serif';
+    box-sizing: border-box;
+}   
+nav > a {
+    text-decoration: none;
+    
+}
+.top-nav {
+    background-color: white;
+    display: flex;
+    align-items: center;
+}
+.top-links {
+    color: black;
+    padding:20px 25px;
+  
+}
+.top-links:hover {
+    background-color: #04AA6D;
+   
+    color:white;
+   
+}
+.search-bar-form{
+    position: relative;
+}
+.search-bar{
+    padding: 9px 4px 9px 20px;
+    border-radius: 50px;
+    position: relative; 
+    border:gray 1px solid; 
+}
+.search-bar:focus {
+    outline: #04AA6D solid 3px;
+    
+}
+
+.search-button {
+    position: absolute;
+    background-color: transparent;
+    border: none;
+    right: 10px; /* Adjust this value to your desired position */
+    top: 50%;
+    transform: translateY(-50%);
+}
+.auth-links-section {
+    padding: 20px 25px;
+}
+.auth-links-section > a {
+    text-decoration: none;
+    color: black;
+    padding: 10px 30px;
+    border-radius: 50px;
+}
+.auth-links-section > a:nth-child(1){
+    background-color: rgb(5, 170, 109);
+    color:white;
+    margin-right: -30px;
+    z-index: -1;
+}
+.auth-links-section > a:nth-child(2){
+    background-color: rgb(217, 238, 225);
+    
+}
+.auth-links-section > a:nth-child(1):hover{
+    background-color: #059862;
+    color:white;
+}
+.auth-links-section > a:nth-child(2):hover{
+    background-color: #059862;;
+}
+.bottom-nav {
+    background-color: #282A35;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+.bottom-nav > a {
+    text-decoration: none;
+    color: white;
+    padding: 9px 30px;
+}
+.bottom-nav > a:hover {
+    background-color: black;
+}
+
+
+
+
