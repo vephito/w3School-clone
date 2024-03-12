@@ -15,8 +15,18 @@ header{
 }
 .nav2{
     display: flex;
-    gap:10px;
+    gap:20px;
     align-items: center;
+}
+
+.themes i{
+    color:rgb(153, 153, 153);
+    cursor: pointer;
+    padding: 10px;
+}
+
+.themes i:hover{
+    color:rgb(0, 0, 0);
 }
 header > nav > button{
     color:white;
@@ -30,6 +40,11 @@ header > nav > button{
 }
 header > nav > button:hover{
     background-color: #059862;
+}
+.themes{
+    display: flex;
+    gap: 10px;
+    align-items: center;
 }
 .right-arrow-icon{
     background-color: white;
@@ -76,5 +91,8 @@ header > nav > button:hover{
 }
 .dark-mode .code-editor{
     background-color: rgb(21,32,43);
+    color: white;
+}
+.dark-mode .themes i {
     color: white;
 }
